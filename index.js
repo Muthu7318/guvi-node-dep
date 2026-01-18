@@ -11,7 +11,7 @@ app.post("/api/data", (req, res) => {
   const { name, age } = req.body;
 
   res.json({
-    message: "data received successfully",
+    message: "data received successfully testing",
     data: {
       name,
       age,
